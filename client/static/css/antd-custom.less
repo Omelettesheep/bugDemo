@@ -1,0 +1,41 @@
+@import '../../../node_modules/antd/dist/antd.less';
+@import './var.less';
+@import '~@css/antd-var.less';
+
+.@{popover-prefix-cls} {
+    .@{popover-prefix-cls}-inner-content {
+        padding: 20px 20px;
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        .@{popover-prefix-cls}-message {
+            padding: 0 0 16px;
+            .anticon {
+                display: none;
+            }
+            .@{popover-prefix-cls}-message-title {
+                padding-left: 0;
+                font-size: 14px;
+                max-width: 140px;
+            }
+        }
+        .@{popover-prefix-cls}-buttons {
+            text-align: center;
+            margin-bottom: 0;
+            .@{btn-prefix-cls} {
+                margin: 0;
+                padding: 0 12px;
+                height: 26px;
+                &.@{btn-prefix-cls}-primary {
+                    margin-left: 10px;
+                    &:hover {
+                        background-color: @color-blue-dark;
+                        border-color: @color-blue-dark;
+                    }
+                }
+            }
+        }
+    }
+}

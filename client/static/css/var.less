@@ -1,0 +1,126 @@
+@import './mixins.less';
+
+@blue: #0793F5;
+@dark-blue: #0e80d0;
+@light-blue: rgba(7, 147, 245, .5);
+@light-blue-toast: rgba(7, 147, 245, .8);
+@border-color: #D5DDE8;
+@border-color-light: #e8e8e8;
+@border-color-new: #C3C8D3;
+@title-color: #65707e;
+@color-black: #333333;
+@red: #F54B2B;
+@white: #FFFFFF;
+@black: #000000;
+@gray: #999999;
+@bg-color: #F1F4F8;
+@font-color: #333;
+@color-black-20: #CCC; // 20%黑
+@hover-color: #F8F9FC;
+@warn-color: #ff5252;
+@font-red: #E02020;
+@aside-bg: @white;
+@primary-hover-color: #2242D3;
+@form-bg: #e6ebf2;
+@link-color: #0793F5; // 链接的淡蓝色
+@bg-color-control: @link-color; // 背景淡蓝色、按钮
+@no-active-font: #c7c7c7;
+@table-gray: #f9fafb;
+
+/*other*/
+@border: 1px solid @border-color;
+@main-min-width: 960px;
+@aside-width: 210px;
+@content-left: @aside-width;
+@header-height: 68px;
+@body-min-width: 1130px;
+
+@remind-high:   #ff5252;
+@remind-scence: #0793F5;
+@remind-normal: #727272;
+@remind-red: #CD3737;
+
+
+@content-width: 926px;
+// 整站背景色
+@content-background: #F6F8F9;
+@card-border-radius: 8px;
+@small-card-border-radius: 5px; // 卡片内部圆角
+@card-box-shadow: 0 6px 14px 0 rgba(227,233,237,0.35);
+@common-background-color: #FCFCFC; // 通用背景色
+@card-align-padding: 32px;
+@aside-width: 186px;
+@site-width: 1206px;
+// 编辑器配置
+@max-editor-view-with: 600px;
+/*-------------颜色区域-------------*/
+// 深蓝
+@color-blue-dark: #1d59e0;
+// 标准蓝
+// @color-blue: @color-blue; // old #457eff
+@color-blue: #3855D5;
+// 标准蓝 + 透明度80%
+@color-blue-opacity-80: #5770DB; //old #6a98ff;
+// 标准蓝 + 透明度60%
+@color-blue-opacity-60: #8fb2ff;
+// 标准蓝 + 透明度10%
+@color-blue-opacity-10: #ecf2ff;
+// 标准蓝 + 透明度0%
+@color-blue-opacity-0: rgba(56, 85, 213, 0);
+
+// 标准红色
+@color-red: #f95d5d;
+@color-orange: #FF6A38;
+
+// 标准灰
+@color-gray: #eee;
+// 浅灰 - 输入框或者按钮不可点击色
+@color-gray-light: #f9f9f9;
+
+// 浅绿色
+@color-green-light: #9AE9B4;
+
+// 表格、list bg hover
+@row-hover-bg: #f9f9f9;
+@arrow-color: rgba(0, 0, 0, 0.2);
+
+// 常用的 borderColor
+@common-border-color: #E9ECF3;
+
+
+
+
+// 商品库
+@jd-bg-color: #E1251B;
+@plat-bg-color: #E4494A;
+
+// 灰色分割线
+@gray-line: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMXB4IiBoZWlnaHQ9IjE0cHgiIHZpZXdCb3g9IjAgMCAxIDE0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0OC4xICg0NzI1MCkgLSBodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2ggLS0+CiAgICA8dGl0bGU+UmVjdGFuZ2xlIDMgQ29weTwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSLlj5HluIPmlofnq6AtY29weSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQxNC4wMDAwMDAsIC0yOTIuMDAwMDAwKSI+CiAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS0zLUNvcHkiIGZpbGw9IiNFRUVFRUUiIHg9IjQxNCIgeT0iMjkyIiB3aWR0aD0iMSIgaGVpZ2h0PSIxNCI+PC9yZWN0PgogICAgPC9nPgo8L3N2Zz4=) no-repeat center center;
+
+// 灰色线
+@gray-border: #d4d4d4;
+
+// 字体颜色
+@color-font-high: #000;
+@color-font-base: #333;
+@color-font-light: #666;
+@color-font-lightest: #9d9d9d;
+// 金色渐变字体
+.color-font-glodgradient {
+    background-image: linear-gradient(to right, #FFEBCF, #F5CA9E);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/*---------------字号大小----------------*/
+@fs-12: 12px;
+@fs-14: 14px;
+@fs-16: 16px;
+@fs-18: 18px;
+
+/*-------------统一字体------------------*/
+@font-family: "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "SimSun", Arial, sans-serif;
+@PingFangSC-Regular: "PingFangSC-Regular", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "SimSun", Arial, sans-serif;
+@PingFangSC-Medium: "PingFangSC-Medium", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "SimSun", Arial, sans-serif;
+@PingFangSC-Semibold: "PingFangSC-Semibold", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "SimSun", Arial, sans-serif;
+@Helvetica-Bold: "Helvetica-Bold";
